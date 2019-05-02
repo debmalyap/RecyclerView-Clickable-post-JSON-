@@ -29,6 +29,11 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.instabug.library:instabug-with-okhttp-interceptor:8.2.2'
-    implementation 'com.squareup.okhttp3:okhttp-ws:3.4.2'
+    //    implementation 'com.squareup.okhttp3:okhttp-ws:3.4.2'
     implementation 'org.webjars.npm:cookiejar:2.1.2'
+    implementation 'com.packetzoom:pz-okhttp3-interceptor:3.2.43'
+    implementation 'com.squareup.okhttp3:okhttp-android-support:3.13.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.android.support:design:28.0.0'
 }

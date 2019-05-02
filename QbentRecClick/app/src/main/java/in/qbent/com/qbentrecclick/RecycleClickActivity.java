@@ -53,6 +53,20 @@ public class RecycleClickActivity extends AppCompatActivity
             {
                 URL url = new URL("https://api.myjson.com/bins/1b703k");
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();//established a connection//
+
+
+//                httpURLConnection.setRequestMethod("POST");
+//                httpURLConnection.setRequestProperty("Content-Type", "application/json; charset=utf-8");
+//
+//                // 2. build JSON object
+//                JSONObject jsonObject = buidJsonObject();
+//
+//                // 3. add JSON content to POST request body
+//                setPostRequestContent(httpURLConnection, jsonObject);
+//
+//                // 4. make POST request to the given URL
+//                conn.connect();
+
                 InputStream inputStream = httpURLConnection.getInputStream();//read the data//
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));//read the data from input stream//
                 String line = " ";
